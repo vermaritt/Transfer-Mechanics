@@ -11,8 +11,7 @@
 
 /* macros */
 #define TFR_MAX_CELL       			100
-#define TFR_SPEED_MULT           	50.0
-#define TFR_OPT_VEL                 55.0
+#define TFR_SPEED_MULT           	55.0
 
 #define TFR_COLT_45					346
 #define TFR_SILENCED_PISTOL			347
