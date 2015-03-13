@@ -41,7 +41,7 @@ CMD:passobject(playerid, params[])
 	obj = CreateObject(19352, x, y, z + 0.9, 0.0, 0.0, 0.0);
 	TFR_ObjectInit(0, obj);
 	TFR_SetRotVelocity(0, 0.0, 0.0, 100.0);
-	TFR_PassObject(0, playerid, TFR_OPT_VEL*floatsin(-angle, degrees), TFR_OPT_VEL*floatcos(-angle, degrees));
+	TFR_PassObject(0, playerid, TFR_SPEED_MULT*floatsin(-angle, degrees), TFR_SPEED_MULT*floatcos(-angle, degrees));
 	return 1;
 }
 
@@ -53,7 +53,7 @@ CMD:passweapon(playerid, params[])
 		new Float:angle;
 		GetPlayerFacingAngle(playerid, angle);
 		TFR_SetRotVelocity(0, 0.0, 150.0, 0.0);
-		TFR_PassWeapon(0, playerid, -1, "SERVER: You cannot tansfer/pass this weapon.", TFR_OPT_VEL*floatsin(-angle, degrees), TFR_OPT_VEL*floatcos(-angle, degrees), 0.0, 100.0);
+		TFR_PassWeapon(0, playerid, -1, "SERVER: You cannot tansfer/pass this weapon.", TFR_SPEED_MULT*floatsin(-angle, degrees), TFR_SPEED_MULT*floatcos(-angle, degrees), 0.0, 100.0);
 	}
 	return 1;
 }
