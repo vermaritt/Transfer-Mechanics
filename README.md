@@ -21,6 +21,14 @@ This include focuses mainly on Roleplay and Cops and Robberers servers.
 
 ### Aplication Programming Interface
 
+#### Macros
+
+```PAWN
+#define TFR_SPEED_MULT           	55.0
+
+Optimal speed/velocity multiplier.
+```
+
 #### Functions
 
  ```PAWN
