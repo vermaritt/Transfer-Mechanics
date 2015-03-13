@@ -67,6 +67,8 @@ limit - Same as the above function.
 ```PAWN
 TFR_SetRotVelocity(cell, Float:rx, Float:ry, Float:rz)
 
+Used to set the objects rotational velocity.
+
 cell - Same as the above function.
 rx - Rotational Velocity in the X axis.
 ry - Rotational Velocity in the Y axis.
@@ -99,10 +101,12 @@ OnPlayerCatchWeapon(playerid, weaponid, ammo)
 Gets called when a player catches an weapon.
 ```
 
+##### Use the Demo script to know more about the functioning
+
 ### Bugs/Glitches
 
-If you get any please create an issue in this repository.
+If you get any create an issue in this repository.
 
 ### Development Log
 
-`     • Created tfrmech.inc
+`     • Created tfrmech.inc`
