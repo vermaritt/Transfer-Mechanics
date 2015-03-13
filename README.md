@@ -19,7 +19,7 @@ This include focuses mainly on Roleplay and Cops and Robberers servers.
 * [Fun/CnR/RP] You can even have some fun with this include. Imagine if your friend wants to use your hat object for just a time being, you would just have to pass your hat to him and that's it. (**Attachments of objects has to be coded manually, as this include just provides the mechanism**).
 * There are lots of uses rather than the mentioned uses.
 
-### Aplication Programming Interface
+### Application Programming Interface
 
 #### Macros
 
