@@ -4,6 +4,15 @@ Provides a simple mechanism for passing/transferring objects and weapons from on
 
 `Note: This is a work in progress and It needs to be tested with 2-3 players.`
 
+### How it works ?
+* When you pass on an object, it gets moved through the air with a particular velocity and a rotational velocity
+  and when a player comes near that thrown object `OnPlayerCatchObject` is called where you can code the object attachment
+  code or whatever you like to code within it.
+* When you pass on weapon, it gets moved through the air with a particular velocity and a rotational velocity(for realism)
+  and the weapon which you passed gets removed from your weapon inventory, if a player comes near the thrown weapon, he
+  acquires the thrown weapon along with the ammo (**which you used to have before passing it**). Thus, he acquires your
+  weapon.
+
 ### Requirements
 
 * San Andreas Multiplayer Client 0.3.7 .
